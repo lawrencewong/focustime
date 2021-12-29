@@ -62,7 +62,7 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
         <ProgressBar
           color="#5E84E2"
           style={{ height: 10 }}
-          progress={onProgress}
+          progress={progress}
         />
       </View>
       <View style={styles.buttonWrapper}>
